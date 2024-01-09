@@ -13,6 +13,8 @@ body{
     align-items: center;
     height: 100vh;
     width: 70%;
+    padding: 3%;
+    justify-content: center;
 }
 .sedans , .suvs, .luxury{
 display: flex;
