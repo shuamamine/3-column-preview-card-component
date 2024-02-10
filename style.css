@@ -9,6 +9,7 @@ body{
     display: grid;
     height: 100vh;
     place-items: center;
+    font-size: 15px;
 }
 .container{
     display: flex;
@@ -28,12 +29,14 @@ gap: 50px;
 }
 .sedans{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 .suvs{
     background-color: hsl(184, 100%, 22%);
 }
 .luxury{
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
 }
 .sedans , .suvs, .luxury p{
     color: hsla(0, 0%, 100%, 0.75);
@@ -79,3 +82,9 @@ button{
     color: hsl(0, 0%, 95%);
     border: 1px solid hsl(0, 0%, 95%);
 }
+/* @media (max-width:375px) {
+    .container{
+        width: 15rem;
+        flex-direction: column;
+    }
+} */
