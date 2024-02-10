@@ -6,18 +6,16 @@
 }
 body{
     background-color: hsl(0, 0%, 95%);
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    display: grid;
+    height: 100vh;
+    place-items: center;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
     height: 100vh;
-    width: 70%;
-    padding: 3%;
+    width: 50rem;
 }
 .sedans , .suvs, .luxury{
 display: flex;
