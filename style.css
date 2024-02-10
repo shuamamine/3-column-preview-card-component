@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
     height: 100vh;
     width: 70%;
     padding: 3%;
@@ -23,6 +24,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+text-align: left;
 padding: 3%;
 gap: 50px;
 }
@@ -44,27 +46,38 @@ h1{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Big Shoulders Display', sans-serif;
 }
-.sedans button{
+button{
     background-color: hsl(0, 0%, 95%);
-    color: hsl(31, 77%, 52%);
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
     font-family: 'Lexend Deca', sans-serif;
+}
+.sedans button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
 }
 .suvs button{
     background-color: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: none;
-    font-family: 'Lexend Deca', sans-serif;
 }
 .luxury button{
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
-    padding: 10px 15px;
-    border-radius: 20px;
-    border: none;
-    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%) ;
+}
+.suvs button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.luxury button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
 }
