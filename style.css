@@ -82,9 +82,15 @@ button{
     color: hsl(0, 0%, 95%);
     border: 1px solid hsl(0, 0%, 95%);
 }
-/* @media (max-width:375px) {
+@media (max-width:375px) {
     .container{
         width: 15rem;
         flex-direction: column;
     }
-} */
+    .sedans{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+}
