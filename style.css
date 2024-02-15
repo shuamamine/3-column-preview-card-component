@@ -6,9 +6,10 @@
 }
 body{
     background-color: hsl(0, 0%, 95%);
-    display: grid;
+    display: flex;
     height: 100vh;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
     font-size: 15px;
 }
 .container{
@@ -16,20 +17,19 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 50rem;
-    
-}
+    width: 53rem;
+    }
 .sedans , .suvs, .luxury{
 display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
-text-align: left;
 padding: 3%;
 gap: 45px;
+padding-bottom: 3rem;
 }
 img{
-    margin: 2rem 1rem 1rem ;
+    margin: 2rem 2rem 1rem ;
 }
 .sedans{
     background-color: hsl(31, 77%, 52%);
@@ -42,14 +42,20 @@ img{
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
 }
-.sedans , .suvs, .luxury p{
+.text p{
     color: hsla(0, 0%, 100%, 0.75);
     text-align: left;
     font-family: 'Lexend Deca', sans-serif ;
+    line-height: 1.5rem;
+    margin-bottom: 1vh;
 }
 h1{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Big Shoulders Display', sans-serif;
+    margin-bottom: 1.5rem;
+}
+.text{
+margin-inline: 2rem;
 }
 button{
     background-color: hsl(0, 0%, 95%);
