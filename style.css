@@ -16,8 +16,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 80vh;
-    width: 53rem;
+    height: 90%;
+    width: 50rem;
     }
 .sedans , .suvs, .luxury{
 display: flex;
@@ -25,8 +25,7 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 padding: 3%;
-gap: 45px;
-padding-bottom: 2rem;
+/* gap: 45px; */
 }
 .sedans{
     background-color: hsl(31, 77%, 52%);
@@ -44,15 +43,21 @@ padding-bottom: 2rem;
     text-align: left;
     font-family: 'Lexend Deca', sans-serif ;
     line-height: 1.5rem;
-    margin-bottom: 1vh;
+    margin-bottom: 4rem;
+    font-size: 15px;
 }
 h1{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
 }
 .text{
-margin-inline: 2rem;
+    margin-right: auto;
+}
+img{
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
 button{
     background-color: hsl(0, 0%, 95%);
@@ -93,6 +98,10 @@ button{
     .container{
         width: 15rem;
         flex-direction: column;
+        padding: 3%;
+    }
+    img{
+        margin-top: 15px;
     }
     .sedans{
         border-radius: 10px 10px 0 0;
