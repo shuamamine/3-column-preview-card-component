@@ -4,8 +4,8 @@ This is a solution to the [3 column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: ([https://your-solution-url.com](https://www.frontendmentor.io/solutions/qr-code-component-WAZsJc8Wq1))
-- Live Site URL: ([https://your-live-site-url.com](https://shuamamine.github.io/QR-code-Component-Frontend-Mentor/))
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/qr-code-component-WAZsJc8Wq1)
+- Live Site URL: [Live Site URL](https://shuamamine.github.io/)
 
 ### Built with
 
